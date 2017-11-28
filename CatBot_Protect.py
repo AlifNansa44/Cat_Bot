@@ -7,27 +7,27 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 cl = LINETCR.LINE()
-cl.login(token="EnOBdSIXPHO6p8HVgcR2.PqIV5EFC6BUWQ+qSyjz84G.SwG9nStCoTeeFyoIBCv7ur/KP3+/7TC2FDtEVc7OEF4=")
+cl.login(token="YOUR_TOKEN")
 cl.loginResult()
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
-ki.login(token="EnwbCe8uDGGaPmYWmH73.PxNiRsrhkBnq+TGpTreHaW.cSMh2p4pySqhhU5oCS1LmSQinzHQ6/vCccfV+LNLNmE=")
+ki.login(token="YOUR_TOKEN")
 ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
-kk.login(token="EnhRplVSZbkklfhus5q6.MoJus1GiTmf8ogPc9yIRvG.ezHeI7Q9PbQSE2EOqie3fnNlrPkReKqFIcB6BK+8roQ=")
+kk.login(token="YOUR_TOKEN")
 kk.loginResult()
 print "Kk-Login Success\n"
 
 kc = LINETCR.LINE()
-kc.login(token="Enh0ZBVuu75A5NW7iFPe.nEpetxoL5uXf0Ex/7mGptG.YGE2CJT5Uj4rXjQjXxTAzhkWdyFzlvfDlR1t4Q1cUXs=")
+kc.login(token="YOUR_TOKEN")
 kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
-kr.login(token="EnoCeKCAgZaR9V3xru2d.0AkFAEi2QRaLYz7Cq3qyFq.uUQVOVts8VffKi7wkOFVSQtnDy7GF+QndOgdsyqXzuU=")
+kr.login(token="YOUR_TOKEN")
 kr.loginResult()
 print "Kr-Login Success\n\n=====[Sukses All Login]====="
 
