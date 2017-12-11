@@ -172,15 +172,6 @@ def bot(op):
 #--------------------------SEND_MESSAGE---------------------------
         if op.type == 25:
             msg = op.message
-	 if op.type == 26:
-            msg = op.message
-            if msg.toType == 2:
-              if '/battle' in msg.text:
-                if wait['autoBattle'] == True:
-                   time.sleep(5)
-                   cl.sendText(msg.to,'/join')
-                else:
-                    pass
 #----------------------------------------------------------------------------
             if msg.contentType == 13:
                 if wait["wblacklist"] == True:
